@@ -468,12 +468,6 @@ a:hover {
 	text-decoration: underline;
 	}
 
-address {
-	font-size: 1.4rem;
-	font-weight: 300;
-	font-style: normal;
-	}
-
 h1, h2, h3 {
 	line-height: 1em;
 	margin: 1em auto;
@@ -494,6 +488,14 @@ header {
 	color: rgb(255, 255, 255);
 	padding: 4rem 0;
 	text-align: center;
+	}
+
+header address a:link, header address a:visited, header address a:hover {
+	color: rgb(255, 255, 255);
+	font-size: 1.4rem;
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
 	}
 
 hr {
