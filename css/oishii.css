@@ -476,6 +476,7 @@ h1, h2, h3 {
 h1 {
 	font-size: 3rem;
 	font-weight: 300;
+	margin-top: 0;
 	}
 
 h2 {
@@ -537,13 +538,20 @@ ul {
 
 #logo {
 	display: block;
-	margin: 1.6rem 0;
+	margin: 0 0 1.6rem;
+	}
+
+#map-marker {
+	margin-right: .5rem;
+	position: relative;
+	top: .2em;
+	width: 1rem;
 	}
 
 
 /* -- Responsive -- */
 
-@media screen and (min-width: 70rem) {
+@media screen and (min-width: 700px) {
 	
 	/* -- Elements -- */
 	
@@ -557,11 +565,15 @@ ul {
 		max-width: 68rem;
 		}
 	
+	.subtitle {
+		display: inline;
+		}
+	
 	
 	/* -- IDs -- */
 	
 	#logo {
-	margin: 3.2rem auto;
-	width: 50rem;
-	}
+		margin: 3.2rem auto;
+		width: 50rem;
+		}
 	}
