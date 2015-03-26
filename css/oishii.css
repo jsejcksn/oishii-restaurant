@@ -451,6 +451,7 @@ th {
 
 body {
 	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 	line-height: 1.4em;
 	}
 
@@ -467,15 +468,31 @@ a:hover {
 	text-decoration: underline;
 	}
 
+address {
+	font-size: 1.4rem;
+	font-weight: 300;
+	font-style: normal;
+	}
+
 h1, h2, h3 {
 	line-height: 1em;
 	margin: 1em auto;
 	}
 
+h1 {
+	font-size: 3rem;
+	font-weight: 300;
+	}
+
+h2 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	}
+
 header {
 	background-color: rgb(255, 105, 105);
 	color: rgb(255, 255, 255);
-	padding: 2rem 1rem;
+	padding: 4rem 0;
 	text-align: center;
 	}
 
@@ -504,16 +521,45 @@ ul {
 
 /* -- Classes -- */
 
+.container {
+	margin: 0 1.6rem;
+	}
 
+.subtitle {
+	display: block;
+	font-weight: 300;
+	}
 
 
 /* -- IDs -- */
 
-
+#logo {
+	display: block;
+	margin: 1.6rem 0;
+	}
 
 
 /* -- Responsive -- */
 
 @media screen and (min-width: 70rem) {
 	
+	/* -- Elements -- */
+	
+	
+	
+	
+	/* -- Classes -- */
+	
+	.container {
+		margin: 0 auto;
+		max-width: 68rem;
+		}
+	
+	
+	/* -- IDs -- */
+	
+	#logo {
+	margin: 3.2rem auto;
+	width: 50rem;
+	}
 	}
