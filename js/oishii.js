@@ -1,6 +1,7 @@
 // Oishii Japanese Restaurant & Sushi Bar
 
 (function() {
+  'use strict';
 
   // Variables ----------
 
